@@ -1,0 +1,16 @@
+.phoneProduct {
+    display: none;
+
+}
+
+@media(max-width : 1199px) {
+    .phoneProduct {
+        display: block;
+        margin-top: 50px;
+
+        .productItem {
+            margin: 0px 8px;
+        }
+
+    }
+}

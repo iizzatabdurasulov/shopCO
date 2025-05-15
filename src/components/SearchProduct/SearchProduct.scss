@@ -1,0 +1,40 @@
+form.searchProduct {
+    position: relative;
+    width: 100%;
+
+    input {
+        width: 100%;
+        background-color: rgba(240, 240, 240, 1);
+        border: none;
+        border-radius: 62px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+        color: rgba(0, 0, 0, 0.4);
+        padding: 12px 52px;
+        outline: none;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 21px;
+        border: none;
+        display: inline-flex;
+    }
+}
+
+@media(max-width: 1199px) {
+    form.searchProduct {
+        width: 100%;
+
+        input {
+            width: 100%;
+            border-radius: unset;
+        }
+    }
+}

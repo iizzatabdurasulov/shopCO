@@ -1,0 +1,39 @@
+.productItem {
+    margin-bottom: 20px;
+
+    img {
+        cursor: pointer;
+
+        &:hover {
+            opacity: .5;
+        }
+    }
+
+    h3.productName {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 100%;
+        margin-bottom: 8px;
+        margin-top: 15px;
+        text-transform: lowercase !important;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+  
+}
+
+@media (max-width:1199px) {
+    .productItem {
+        h3.productName {
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+      
+    }
+}

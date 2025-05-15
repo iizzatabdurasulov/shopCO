@@ -1,0 +1,9 @@
+.products {
+    margin-top: 70px;
+}
+
+@media(max-width : 1199px) {
+    .products {
+        display: none;
+    }
+}

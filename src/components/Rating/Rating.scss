@@ -1,0 +1,23 @@
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 8px;
+    .starIcons {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        color: gold;
+    }
+
+    span:not(.starIcons span) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        color: black;
+
+        .five {
+            color: rgba(0, 0, 0, .6);
+        }
+    }
+}

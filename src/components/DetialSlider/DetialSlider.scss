@@ -1,0 +1,38 @@
+.detialSlider {
+    display: flex;
+    gap: 15px;
+
+    .smallImg {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        img {
+            width: 150px;
+            height: 167px;
+            border-radius: 20px;
+            object-fit: fill;
+            border: 1px solid transparent;
+            cursor: pointer;
+
+            &:hover {
+                opacity: .5;
+                border-color: black;
+            }
+        }
+    }
+
+    .bigImg {
+        img {
+            width: 444px;
+            height: 530px;
+            border-radius: 20px;
+
+        }
+    }
+
+    .smallImgActive {
+        border-color: black !important;
+        opacity: .5;
+    }
+}

@@ -1,0 +1,20 @@
+.comments {
+    overflow-x: hidden;
+
+    h2.title {
+        text-align: left;
+    }
+
+    .slick-current {
+        filter: blur(4px);
+    }
+}
+
+
+@media(max-width:1199px) {
+    .comments {
+        .slick-current {
+            filter: none;
+        }
+    }
+}
