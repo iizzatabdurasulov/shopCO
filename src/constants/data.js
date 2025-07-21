@@ -3,7 +3,7 @@ import smallImg from "../assets/img/Frame 32.png";
 import img14 from "../assets/img/image 14.png";
 import img13 from "../assets/img/image 13.png";
 import visa from "../assets/img/Visa.png";
-import master from "../assets/img/Mastercard.png";
+import master from "../assets/img/MasterCard";
 import paypal from "../assets/img/Paypal.png";
 import apple from "../assets/img/ApplePay.png";
 import google from "../assets/img/GooglePay.png";
