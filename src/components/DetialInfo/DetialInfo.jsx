@@ -12,7 +12,6 @@ export default function DetialInfo({ data }) {
   const [isSize, setIsSize] = useState("medium");
   const [countProduct, setCountProduct] = useState(0);
   const { dbBasket, setDbBasket } = useContext(Context);
-
   const handleAddBasket = (singleProducts) => {
     setDbBasket((prevBasket) => {
       const isBasket = prevBasket.findIndex(
